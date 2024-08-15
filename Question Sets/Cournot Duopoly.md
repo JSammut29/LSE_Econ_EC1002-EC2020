@@ -4,7 +4,7 @@
 
 - **a)** People generally believe that oligopolies (and in particular duopolies) are always inefficient. Are they correct?
 
-- **b)** Two firms A and B produce the same good. Each sets the price of the good. If the two firms set the same price, they share the market equally. The demand for the output of the industry is \(Q = 90 - p\) where \(p\) is the price. Both firms have a marginal and average cost of £10. The two firms observe that they can both increase profits if they set up a cartel which produces the level of industry output that maximizes industry profits.
+- **b)** Two firms A and B produce the same good. Each sets the price of the good. If the two firms set the same price, they share the market equally. The demand for the output of the industry is $Q = 90 - p$ where $p$ is the price. Both firms have a marginal and average cost of £10. The two firms observe that they can both increase profits if they set up a cartel which produces the level of industry output that maximizes industry profits.
 
     1. What is the output of the cartel?
     2. What is the industry price?
@@ -101,19 +101,23 @@ What are the particular characteristics of monopolistic competition as a market 
 
 ---
 
-Monopolistic competition is a market structure characterized by a large number of firms that produce differentiated products, meaning each firm offers a slightly unique version of a product that is not a perfect substitute for others. This differentiation can be based on factors such as branding, quality, features, or customer service. Firms in monopolistic competition have some degree of market power, allowing them to set prices above marginal cost, but this power is limited due to the presence of close substitutes. Entry and exit barriers are low, leading to a dynamic market where firms can enter or leave with relative ease. In the long run, economic profits tend to be zero as new entrants erode any short-term profits by increasing competition. This market structure results in a balance between the monopoly power of individual firms and the competitive pressure from other firms.
+Monopolistic competition is a market structure characterized by a large number of firms that produce differentiated products, meaning each firm offers a slightly unique version of a product that is not a perfect substitute for others. This differentiation can be based on factors such as branding, quality, features, or customer service. Each firm has some degree of pricing power due to product differentiation, allowing them to set prices above marginal cost. However, this pricing power is limited by the presence of close substitutes and low barriers to entry, which enable new firms to enter the market easily, thereby increasing competition.
+
+The term "monopolistic competition" refers to the market power that individual firms possess due to product differentiation. While each firm can set its prices to some extent because its product is not a perfect substitute for others, competitive pressures from close substitutes prevent prices from being set too high without risking a loss of customers to competitors. This hybrid nature captures the essence of markets where firms have some monopoly power due to differentiation but still operate in a competitive environment. In the long run, economic profits tend to be zero as new entrants erode any short-term profits by increasing competition.
 
 ---
 
-## Question 3 (Multiple Choice)
+## Question 3
 
 If the market consists of only two producers that compete in prices and have the same production costs, then equilibrium output is the same as if the market was perfectly competitive.
 
-**Responses:**
+> **Textbook Answer: A) True** *Under these assumptions firms compete à la Bertrand and, because they have the same marginal costs, they will end up setting the price equal to this. This is the same equilibrium we would expect in a perfectly competitive market, although firms reach this equilibrium for a different reason.*
 
-- A) True
-- B) False
-- C) Uncertain
+- **Answer:** **B) False**
+
+In a market with two price-competing producers, firms undercut each other's prices until the price equals their marginal cost. If there were an increasing number of firms, as in perfect competition, the price would trend towards the lowest average cost. However, this level of optimisation may not be possible in a duopoly leading to a lower equilibrium output. Thus ouput in a duopoly is $\leq$ output in perfect competition.
+
+![Equilibrium Output Analysis](https://github.com/user-attachments/assets/347ebad9-1662-4159-9f9d-e18a87259e5a)
 
 ---
 
@@ -121,11 +125,9 @@ If the market consists of only two producers that compete in prices and have the
 
 In a tennis game, Serena is playing against Naomi. Serena and Naomi each choose between two actions: to play more in the front or in the back. If they both make the same choice, Serena wins. If they make different choices, Naomi wins. In this game, there are no pairs of actions that are best responses to each other.
 
-**Responses:**
+- **Answer:** **A) True**
 
-- A) True
-- B) False
-- C) Uncertain
+In each outcome Serena has an incentive to do whatever Naomi is doing and Naomi has an incentive to deviate.
 
 ---
 
@@ -133,11 +135,9 @@ In a tennis game, Serena is playing against Naomi. Serena and Naomi each choose 
 
 If two players have a dominant strategy, then there will not be any other Nash equilibria than the outcome in which both players play their dominant strategy.
 
-**Responses:**
+- **Answer:** **A) True**
 
-- A) True
-- B) False
-- C) Uncertain
+If both players have a **dominant strategy**—meaning that their best strategy does not depend on the other player's choice—then the outcome in which both players play their dominant strategy is the only **Nash equilibrium**. A **Nash equilibrium** occurs when each player’s strategy is the best response to the other player’s strategy. Since the dominant strategy is the best regardless of what the opponent does, the combination of both players playing their dominant strategies forms the unique Nash equilibrium, and no other Nash equilibria exist.
 
 ---
 
@@ -149,15 +149,10 @@ Suppose both England and Norway fish in the North Sea. Both countries know that 
 
 |                     | Norway: 10 boats | Norway: 5 boats |
 |---------------------|------------------|-----------------|
-| **England: 10 boats** | (X, Y)           | (X, Y)          |
-| **England: 5 boats**  | (X, Y)           | (X, Y)          |
+| **England: 10 boats** | (300, 300)           | (550, 250)          |
+| **England: 5 boats**  | (250, 550)           | (500, 500)          |
 
-**Responses:**
-
-- A) There is no Nash equilibrium.
-- B) There is a Nash equilibrium where England and Norway both employ 5 boats.
-- C) There are two symmetric Nash equilibria where one country employs 5 boats and the other 10 boats.
-- D) There is one Nash equilibrium where both countries employ 10 boats.
+- **Option D:** The Nash equilibrium occurs when both countries employ 10 boats, as this is the best response for both under the given payoffs.
 
 ---
 
@@ -172,25 +167,47 @@ Two gangsters have to choose whether to fight or make peace. The following matri
 
 Mark the correct answer.
 
-**Responses:**
-
-- A) Playing Fight strictly dominates playing Truce for the column player.
-- B) The row player playing Truce and the column player playing Fight is a Nash Equilibrium.
-- C) The only equilibrium is where both players choose Truce.
-- D) There are at least two Nash equilibria in this game.
+- **Option A:** Playing Fight strictly dominates playing Truce for the column player.
 
 ---
 
 ## Question 8
 
-An industry is a Cournot duopoly with two firms A and B. Industry inverse demand is \(p = 10 - Q\), where \(Q = q_A + q_B\). Both firms produce with a constant average and marginal cost of 4. Which of the following statements is correct?
+An industry is a Cournot duopoly with two firms A and B. Industry inverse demand is $p = 10 - Q$, where $Q = q_A + q_B$. Both firms produce with a constant average and marginal cost of 4. Which of the following statements is correct?
 
-**Responses:**
+- **Option A:** Firm A has a reaction function $q_A = 3 - \frac{q_B}{2}$.
 
-- A) Firm A has a reaction function \(q_A = \frac{3 - q_B}{2}\).
-- B) Both firms produce 3.
-- C) The industry price is 5.
-- D) Both firms make losses.
+In a Cournot duopoly, each firm chooses its output level $q_A$ and $q_B$ simultaneously, assuming the output of the other firm is fixed. The market price is determined by the total quantity $Q = q_A + q_B$ supplied to the market.
+
+- Inverse Demand: $p = 10 - Q$, where $Q = q_A + q_B$
+- Marginal Cost $MC$ for both firms: $MC_A = MC_B = 4$
+- $q_B$ remains unknown
+
+**Deriving Firm A's Reaction Function:**
+
+$$ 
+   TR_A = p \times q_A = (10 - Q) \times q_A = (10 - q_A - q_B) \times q_A 
+$$
+
+$$ 
+   TR_A = 10q_A - q_A^2 - q_A q_B 
+$$
+
+Profit is total revenue minus total cost, which function is then optimised for $q_A$
+
+$$ 
+   \pi_A = TR_A - TC_A = (10q_A - q_A^2 - q_A q_B) - 4q_A = 6q_A - q_A^2 - q_A q_B 
+$$
+
+$$ 
+   \frac{\partial \pi_A}{\partial q_A} = 6 - 2q_A - q_B = 0 
+$$
+
+$$ 
+   q_A = \frac{6 - q_B}{2} 
+$$
+
+
 
 ---
 
@@ -198,15 +215,12 @@ An industry is a Cournot duopoly with two firms A and B. Industry inverse demand
 
 Two firms, A and B, produce the same product and compete by setting prices. They are the only firms that produce the product. Both firms have a marginal and average cost of £2. If both firms set the same price, they share the market equally. If they charge different prices, the firm charging the lower price takes the entire market. Which of the following statements is incorrect?
 
-**Responses:**
-
-- A) The equilibrium price is equal to marginal cost.
-- B) In equilibrium, both firms set the same price.
-- C) In equilibrium, the two firms share the market equally.
-- D) Because the number of firms in the industry is small, firms make profits in equilibrium.
+- **Option D:** Incorrect. In Bertrand competition with identical products and costs, firms make zero economic profits in equilibrium because price is driven down to marginal cost. The small number of firms does not guarantee profits; rather, the price competition ensures no firm makes profits.
 
 ---
 
-## Final Answer
+> In Cournot competition where firms choose quantities of production, an example might be oil, coal and natural gas in the energy market, while in a Bertrand model, where firms set prices, an example might be competition between food producers where consumers have preference for one type of food, but reduce their demand for it depending on the average price of substitutes.
 
-*Write your final answer or overall conclusion here.*
+> A **Dominant Strategy** is a player’s best strategy whatever the strategies adopted by rivals.
+
+> In **Nash Equilibrium**, each player chooses the best strategy, given the strategies being followed by other players.
