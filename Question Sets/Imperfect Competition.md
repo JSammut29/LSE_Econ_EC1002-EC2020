@@ -75,7 +75,7 @@ $$
 $$
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/61e323b4-0c03-49e8-b247-8f51db6f57ca" alt="Total Combined Profit" />
+  <img src="Imperfect Competition/Total Combined Profit.png" alt="Total Combined Profit" />
 </div>
 <br>
 
@@ -86,7 +86,7 @@ The stability of the cartel can also be undermined if one firm cheats, triggerin
 Given the homogeneous nature of the products, a slight price undercut by firm B will allow it to capture the entire market share, effectively doubling its output and profits. This can be demonstrated in the below chart.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/347c7840-c261-484f-9ad7-0548ab6e2015" alt="Profit Maximization for Firm B" />
+  <img src="Imperfect Competition/Profit Maximization for Firm B.png" alt="Profit Maximization for Firm B" />
 </div>
 <br>
 
@@ -117,7 +117,14 @@ If the market consists of only two producers that compete in prices and have the
 
 In a market with two price-competing producers, firms undercut each other's prices until the price equals their marginal cost. If there were an increasing number of firms, as in perfect competition, the price would trend towards the lowest average cost. However, this level of optimisation may not be possible in a duopoly leading to a lower equilibrium output. Thus ouput in a duopoly is $\leq$ output in perfect competition.
 
-![Equilibrium Output Analysis](https://github.com/user-attachments/assets/347ebad9-1662-4159-9f9d-e18a87259e5a)
+<div align="center">
+  <img src="Imperfect Competition/Equilibrium Output Analysis.png" alt="Equilibrium Output Analysis" />
+</div>
+<div align="center">
+  <img src="Imperfect Competition/Duopoly vs Perfect Competition.png" alt="Equilibrium Output Analysis" />
+</div>
+<br>
+
 
 ---
 
