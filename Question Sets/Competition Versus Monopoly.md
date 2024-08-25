@@ -84,3 +84,61 @@ There are various incentives motivating government decision making.
 - *Political Context*: Farmers may get upset over a reduction in profits, whilst the consumers may be indifferent to a reduction in the price of Pink Lady apples leading to a net loss of political support.
 - The government may support a monopoly if it aligns with broader goals, such as food security or rural development, despite potential inefficiencies.
 - Whether the government *"should"* take action against the formation of a monopoly may also be considered against existing legal frameworks. However, there may be scope for these legal frameworks to change.
+
+---
+
+## Question 6
+
+Suppose all firms in a perfectly competitive market are initially in both short-run and long-run equilibrium. Then a lump-sum tax (i.e. a tax that is unrelated to a firm’s output) is introduced. 
+
+**A)** Draw a diagram to illustrate the effects of the lump-sum tax on an individual firm and the whole industry. <br>
+**B)** What impact will this have on each firm in the short-run? <br>
+**C)** What impact will this have on market price in the long-run? <br>
+**D)** What impact will this have on each firm’s output in the long-run? <br>
+**E)** What impact will this have on the number of firms in the industry in the long-run? <br>
+
+---
+
+<br>
+
+In the initial state, the market, under perfect competition, was in both short-run and long-run equilibrium. This implies that several firms supplied the market with identical goods at identical cost and selling prices.
+
+In this scenario, sufficient firms operated in the market such that; <br> $\text{Price} = \text{Marginal Cost} = \text{Minimum Average Total Cost}$.  <br> The market was perfectly optimised to maximise total surplus, minimising costs and maximising quantity. The firms made zero economic profit.
+
+>**The industry wide supply curve is the horizontal summation of all the individual firm's supply curves.** <br>
+**For firms, the Marginal Cost Curve is the Supply Curve.** 
+
+<div align="center">
+  <img src="Competition Versus Monopoly\Q6 Figure 1.png" alt="Figure 1" />
+</div>
+<br>
+
+The Marginal Cost Curve intersects the Average Total Cost Curve at its minimum point. This is intuitive since any unit produced above the average cost contributes to increasing it. Since the market is optimised, this also happens to be the intersection point of the demand curve.
+
+
+A Lump-Sum Tax is a fixed tax that does not depend on the level of output produced by the firm. As such, the lump-sum tax contributes to increasing the average total cost curve but has no impact to the marginal cost curve. 
+
+<div align="center">
+  <img src="Competition Versus Monopoly\Q6 Figure 2.png" alt="Figure 2" />
+</div>
+<br>
+
+In the short-run, firms will keep on producing the same quantity of goods, and sell them at the same price. For the firms, selling at the intersection between demand and marginal cost will always maximise their profits / minimise their losses.
+
+**They will absorb the full impact of the tax, thus turning their break-even position to a loss.**
+
+Due to the new situation in the market, it will no longer be feasible for all firms to remain in the market. Firms that cannot cover their costs will exit the industry, relieving themselves of the tax burden and the economic losses.
+
+**The adjustment occurs through the exit of firms rather than changes in individual firm output.**
+
+In a perfectly competitive market, when firms exit the industry, the overall supply curve shifts to the left. This is because the exit of firms reduces the sum of goods available in the market. The reduction in supply leads to increases in market prices. 
+
+<div align="center">
+  <img src="Competition Versus Monopoly\Q6 Figure 3A.png" alt="Figure 3A" />
+  <img src="Competition Versus Monopoly\Q6 Figure 3B.png" alt="Figure 3B" />
+</div>
+<br>
+
+For the firms that remain in business, their output and costs are constant throught the market rebalancing but the increasing selling price allows them to reduce their losses. The market price will continue to increase until the remaining firms in the industry are able to cover their new average total costs, including the lump-sum tax, and return to zero economic profit.
+
+The new equilibrium position has consumers buying less goods at a more expensive price reducing total surplus.
