@@ -1,6 +1,6 @@
 # Economics Studies at LSE: EC1002 & EC2020
 
-This repository documents the progress made in **EC1002 - Introduction to Economics** and **EC2020 - Elements of Econometrics** at the London School of Economics. It serves as a comprehensive resource for notes, essays, and critical analyses developed during these courses.
+This repository documents the progress made in **2023-0708 EC1002 - Introduction to Economics** and **2024-0508 EC2020 - Elements of Econometrics** at the London School of Economics. It serves as a comprehensive resource for notes, essays, and critical analyses developed during these courses.
 
 ## Purpose
 
