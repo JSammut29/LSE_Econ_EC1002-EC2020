@@ -48,7 +48,7 @@ The theoretical framework of oligopolies often includes the possibility of collu
 
 **Marginal & Average Cost:** £10
 
-**Unit Profit** $\= p - 10$
+**Unit Profit** $= p - 10$
 
 **Units Sold:** $Q = 90 - p$
 
