@@ -26,3 +26,58 @@ where Area=Width $\times$ Height and Aspect Ratio=Height/Width. The standard err
 
 ---
 <br>
+
+1. **Intercept -8.427:**
+   - The **y-intercept** tells us the predicted log of price when both **log(Area)** and **Aspect Ratio** are zero. 
+   - It may not have practical relevance, ($\text{Area} = 1 \text{ cm}^2$, $\text{Aspect Ratio} \neq 0$  but is just part of the model fitting.
+
+2. **Coefficient for $\log(\text{Area})$ 1.334:**
+   - This coefficient tells us the **elasticity of price with respect to area**. Since we have logs on both sides, we can say:
+     - **A 1% increase in area results in a 1.334% increase in price**.
+   - Larger paintings get disproportionately more expensive This helps explain why bigger paintings tend to command higher prices at auction.
+
+3. **Coefficient for Aspect Ratio -0.165:**
+   - Since it’s not logged, we interpret this as: 
+     - **A 1 unit increase in the aspect ratio is associated with a 16.5% decrease in price, holding the area constant.**
+   - So, paintings that are much taller relative to their width (i.e., higher aspect ratio) tend to sell for less, while more square or wider paintings are more valuable.
+
+<br>
+
+>To perform valid hypothesis testing, we assume that the **residuals (errors) of the regression model are normally distributed**.
+
+We may test the significance of each parameters using the t-statistic;
+$$
+t = \frac{\hat{\beta}}{\text{SE}(\hat{\beta})}
+$$
+- $\hat{\beta}$ - the estimated coefficient 
+- $\text{SE}(\hat{\beta})$ - the standard error of the coefficient. 
+
+<br>
+
+- **Null Hypothesis ($H_0$):** The coefficient is equal to zero (i.e., the variable has no effect on the log of price).
+- **Alternative Hypothesis ($H_1$):** The coefficient is not equal to zero (i.e., the variable has a significant effect on the log of price).
+
+For $\beta_{\log(\text{Area})}$ | $H_0: \beta_{\log(\text{Area})} = 0$, $H_1: \beta_{\log(\text{Area})} \neq 0$
+
+For $\beta_{\text{Aspect Ratio}}$ | $H_0: \beta_{\text{Aspect Ratio}} = 0$, $H_1: \beta_{\text{Aspect Ratio}} \neq 0$
+
+With 430 observations, the degrees of freedom are;
+$$N - k - 1 = 430 - 2 - 1 = 427$$
+For a typical significance level of 5%, the critical t-value for a two-tailed test is about **1.96**. This means:
+- If the absolute value of the t-statistic is greater than 1.96, we reject the null hypothesis and conclude the coefficient is significant.
+
+1. **For $\log(\text{Area})$:**
+   $$
+   t = \frac{1.334}{0.091} = 14.66 > 1.96
+   $$
+
+2. **For Aspect Ratio:**
+   $$
+   t = \frac{|-0.165|}{0.125} = |-1.32| < 1.96
+   $$
+
+> a) Therefore we may conclude that; <br>
+\- For $\log(\text{Area})$ the t-statistic is **14.66**, which is much greater than 1.96. This means that $log(\text{Area})$ is highly significant, and we can reject the null hypothesis. **Larger areas significantly increase the price.** <br> 
+\- For Aspect Ratio the t-statistic is **-1.32**, which is less than 1.96 in absolute value. This means we fail to reject the null hypothesis, so **the aspect ratio does not significantly affect the price at the 5% significance level.**
+
+
