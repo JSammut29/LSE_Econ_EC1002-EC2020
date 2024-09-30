@@ -118,9 +118,17 @@ Surplusland’s balance of payment is equal to zero and hence the exchange rate 
 
 In the Solow growth model if we are below the steady state equilibrium then the output must be rising because funds available to create capital are greater than the amount that is required to keep capital labor ratio constant.
 
+> **True** - In the Solow Growth Model, given a constant savings rate, capital per worker will increase, causing the output per worker to increase, until savings equal the depreciation of existing capital at the steady state equilibrium. 
+
+![Solow's Steady State Model](<Figures\Solow's Steady State Model.jpg>)
+
 ### Question 8
 
 The asset motive for holding money shows its use as a low-risk store of value.
+
+> **True** - Money serves as a safeguard against economic and situational uncertainty, providing liquidity and allowing for the strategic holding of money as a form of wealth preservation. Ludwig von Mises stated *"Money is not useful in itself but because it has a prior exchange value"*, highlighting its role in maintaining purchasing power amidst economic fluctuations . 
+
+<br>
 
 ---
 ---
@@ -129,7 +137,7 @@ The asset motive for holding money shows its use as a low-risk store of value.
 
 ### Question 1
 
-Bowen is the founder of a fashion company. His company produces dresses according to the production function \( Q = 2K + L \) where \( K \) captures the sewing machines used in production and \( L \) the number of hours it takes a worker to sew a garment.
+Bowen is the founder of a fashion company. His company produces dresses according to the production function $Q = 2K + L$ where $K$ captures the sewing machines used in production and $L$ the number of hours it takes a worker to sew a garment.
 
 a) What is an isoquant? Draw a few isoquants that correspond to the production function for dresses. [5 marks]
 
@@ -139,15 +147,52 @@ c) Continue to assume that sewing machines cost £100 and a worker demands a wag
 
 d) Bowen runs a successful marketing campaign that makes consumers perceive his dresses as unique. Bowen is now free to act as a monopolist. Show graphically how Bowen will decide the price to set and quantity to produce under his new market structure. [10 marks]
 
+---
+<br>
+
+> An **Isoquant** in microeconomics represents a curve that illustrates all the combinations of two inputs, typically capital and labor, yielding the same level of output. 
+<br> <br>
+Isoquants slope downward, reflecting the principle of the **marginal rate of technical substitution (MRTS)**, which quantifies how much of one input can be substituted for another without altering output levels. 
+
+![Isoquants](<Figures\EC1002_05A23_SbQ2_Isoquants.png>)
+<br>
+
+> Isoquants help firms determine the most efficient combination of inputs for production. By analyzing isoquants alongside **isocost lines**; which represent combinations of inputs that cost the same amount, firms can identify the optimal input mix that minimizes costs while maximizing output.
+<br> <br>
+The high cost of sowing machines is prohibitive relative to labour costs. As such, the optimal point is at $(0,100)$, for which no sowing machines and 100 labour hours are used to manufacture 100 dresses at a total cost of; $$£20 \times 100 \text{ hours} = £2000$$
+
+![Isocosts](<Figures\EC1002_05A23_SbQ2_Isocosts.png>)
+<br>
+
+> We expect the price to equal the marginal cost price of; $$£2000 \div 100 \text{ dresses} = £20 \text{ each}$$
+<br>
+
+> As a monopolist, Bowen will seek to maximise profits. 
+<br>
+Since the optimal marginal cost (*average cost*) is £20, we may consider the horizontal supply curve; $$MC = £20$$ and a downward sloping demand curve; $$P = P(Q) \text{\tiny{ (not specified)}}$$ resulting in marginal revenue curve; $$\begin{align} \text{Marginal Revenue} &= \frac{d}{dQ} \left( \text{ Total Revenue} = P(Q) \cdot Q \right) \\ &= P(Q) + Q \cdot P'(Q) \end{align} $$
+
+![Monopoly](<Figures\EC1002_05A23_SbQ2_Monopoly.png>)
+<br>
+
+> The figure above refers. The monopolist will seek to maximise the size of the green shaded region (supernormal profit) by producing dresses only whilst the Marginal Cost is less than the Marginal Revenue, beyond which point further units will reduce profits. Thus, we may obtain the quantity produced $Q^*$ by considering the intersection $MC = MR$, and the price using $P(Q^*)$.
+
 ### Question 2
 
-a) In the IS-MP model we have real interest rate on the vertical axis and output on the horizontal axis. Explain the IS curve, and its slope by assuming a closed economy where \( C = C_0 + c(Y - T), I = I_0 - br \), and \( G = G_0 \). \( I_0 \), \( G_0 \), and \( C_0 \) are all positive, \( b > 0 \), and \( 0 < c < 1 \). \( T \) is a lump sum tax. [8 marks]
+a) In the IS-MP model we have real interest rate on the vertical axis and output on the horizontal axis. Explain the IS curve, and its slope by assuming a closed economy where $C = C_0 + c(Y - T), I = I_0 - br$, and $G = G_0$. $I_0$, $G_0$, and $C_0$ are all positive, $b > 0$, and $0 < c < 1$. $T$ is a lump sum tax. [8 marks]
 
-b) Assume that the lump sum tax is replaced by a proportional tax equal to \( t \), where \( t < 1 \). What happens to the multiplier and the slope of the IS curve? [7 marks]
+b) Assume that the lump sum tax is replaced by a proportional tax equal to $t$, where $t < 1$. What happens to the multiplier and the slope of the IS curve? [7 marks]
 
-c) Assume the MP curve is given by \( r = 1.0 + 0.75\pi \), where \( \pi \) is the inflation rate. The IS curve is given by \( Y = 12 - r \). Derive the equation of the aggregate demand curve and indicate what its intercept and slopes are. If inflation is 10%, what is the level of output? [10 marks]
+c) Assume the MP curve is given by $r = 1.0 + 0.75\pi$, where $\pi$ is the inflation rate. The IS curve is given by $Y = 12 - r$. Derive the equation of the aggregate demand curve and indicate what its intercept and slopes are. If inflation is 10%, what is the level of output? [10 marks]
 
-d) Assume business confidence rises so \( I_0 \) rises by 2. What is the impact on the level of output if inflation rate is 5%? [5 marks]
+d) Assume business confidence rises so $I_0$ rises by 2. What is the impact on the level of output if inflation rate is 5%? [5 marks]
+
+---
+
+
+
+
+
 
 ---
 End of paper
+
