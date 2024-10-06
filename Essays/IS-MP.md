@@ -93,15 +93,20 @@ $$
 
 1) $\textbf{The Consumption Function}$ determines household spending as a function of income and taxes, forming part of Aggregate Expenditure.
 
+- With **Lump-Sum Tax**;
 $$
 C = C_0 + c(Y - T)
 $$
-
+- With **Proportional Tax**; 
+$$ 
+C = C_0 + c(1 - t)Y 
+$$ 
 Where:
 - $C_0$ : **Autonomous Consumption**
 - $c$ : **Marginal Propensity to Consume (MPC)** <br> For $c = 0.8$, households will spend 80 cents for every extra dollar of income.
 - $Y$ : **Output or Income** <br> This is the total income that households earn in the economy, often equated with GDP.
-- $T$ : **Lump-Sum Taxes** <br> A fixed amount of tax regardless of the income level.
+- $T$ : **Lump-Sum Taxes** <br> Tax liability is fixed regardless of the income level.
+- $t$ : **Proportional Tax** <br> Tax liability is proportional to income level.
 <br><br>
 
 ---
@@ -118,6 +123,8 @@ Where:
 - $I_0$ : **Autonomous investment**
 - $b$ : This is a **sensitivity parameter** that shows how much investment decreases when the interest rate $r$ rises. A higher $b$ means that firms are more sensitive to interest rates.
 - $r$ : **The Real Interest Rate**
+
+*In the IS-MP Model, it is assumed that taxation does not limit or deter investment.*
 <br><br>
 
 ---

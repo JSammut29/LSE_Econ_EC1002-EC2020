@@ -154,31 +154,36 @@ d) Bowen runs a successful marketing campaign that makes consumers perceive his 
 <br> <br>
 Isoquants slope downward, reflecting the principle of the **marginal rate of technical substitution (MRTS)**, which quantifies how much of one input can be substituted for another without altering output levels. 
 
-![Isoquants](<Figures\EC1002_05A23_SbQ2_Isoquants.png>)
+![Isoquants](<Figures\EC1002_05A23_SbQ1_Isoquants.png>)
 <br>
 
 > Isoquants help firms determine the most efficient combination of inputs for production. By analyzing isoquants alongside **isocost lines**; which represent combinations of inputs that cost the same amount, firms can identify the optimal input mix that minimizes costs while maximizing output.
 <br> <br>
 The high cost of sowing machines is prohibitive relative to labour costs. As such, the optimal point is at $(0,100)$, for which no sowing machines and 100 labour hours are used to manufacture 100 dresses at a total cost of; $$£20 \times 100 \text{ hours} = £2000$$
 
-![Isocosts](<Figures\EC1002_05A23_SbQ2_Isocosts.png>)
+![Isocosts](<Figures\EC1002_05A23_SbQ1_Isocosts.png>)
 <br>
 
 > We expect the price to equal the marginal cost price of; $$£2000 \div 100 \text{ dresses} = £20 \text{ each}$$
+
 <br>
 
 > As a monopolist, Bowen will seek to maximise profits. 
 <br>
-Since the optimal marginal cost (*average cost*) is £20, we may consider the horizontal supply curve; $$MC = £20$$ and a downward sloping demand curve; $$P = P(Q) \text{\tiny{ (not specified)}}$$ resulting in marginal revenue curve; $$\begin{align} \text{Marginal Revenue} &= \frac{d}{dQ} \left( \text{ Total Revenue} = P(Q) \cdot Q \right) \\ &= P(Q) + Q \cdot P'(Q) \end{align} $$
+Since the optimal marginal cost (*average cost*) is £20, we may consider the horizontal supply curve; $$MC = £20$$ and a downward sloping demand curve; $$P = P(Q) \text{\tiny{ (not specified)}}$$ resulting in marginal revenue curve; $$\begin{align} \text{Marginal Revenue} &= \frac{d}{dQ} \left( \text{ Total Revenue} = P(Q) \cdot Q \right) \nonumber \\ &= P(Q) + Q \cdot P'(Q) \nonumber \end{align}$$
 
-![Monopoly](<Figures\EC1002_05A23_SbQ2_Monopoly.png>)
+![Monopoly](<Figures\EC1002_05A23_SbQ1_Monopoly.png>)
 <br>
 
 > The figure above refers. The monopolist will seek to maximise the size of the green shaded region (supernormal profit) by producing dresses only whilst the Marginal Cost is less than the Marginal Revenue, beyond which point further units will reduce profits. Thus, we may obtain the quantity produced $Q^*$ by considering the intersection $MC = MR$, and the price using $P(Q^*)$.
 
+<br>
+
+---
+
 ### Question 2
 
-a) In the IS-MP model we have real interest rate on the vertical axis and output on the horizontal axis. Explain the IS curve, and its slope by assuming a closed economy where $C = C_0 + c(Y - T), I = I_0 - br$, and $G = G_0$. $I_0$, $G_0$, and $C_0$ are all positive, $b > 0$, and $0 < c < 1$. $T$ is a lump sum tax. [8 marks]
+a) In the IS-MP model we have real interest rate on the vertical axis and output on the horizontal axis. Explain the IS curve, and its slope by assuming a closed economy where $$C = C_0 + c(Y - T)$$ $$I = I_0 - br$$ $$G = G_0$$ $I_0$ , $G_0$ , and $C_0$ are all positive, $b > 0$, and $0 < c < 1$. $T$ is a lump sum tax. [8 marks]
 
 b) Assume that the lump sum tax is replaced by a proportional tax equal to $t$, where $t < 1$. What happens to the multiplier and the slope of the IS curve? [7 marks]
 
@@ -187,12 +192,49 @@ c) Assume the MP curve is given by $r = 1.0 + 0.75\pi$, where $\pi$ is the infla
 d) Assume business confidence rises so $I_0$ rises by 2. What is the impact on the level of output if inflation rate is 5%? [5 marks]
 
 ---
+<br>
+
+> The IS curve represents combinations of real interest rates $r$ and output $Y$ that bring the goods market into equilibrium, where $$\text{Aggregate Expenditure (}AE \text{)} = \text{Output (}Y \text{)}$$ <br>
+In a closed economy, this will mean that; $$\begin{align}
+AE &= C + I + G \nonumber \\ &= (C_0 + c(Y - T)) + (I_0 - br) + G_0 \nonumber 
+\end{align}$$ 
+At equilibrium, $AE = Y$;  $$\begin{align}
+Y &= C_0 + c(Y - T) + I_0 - br + G_0 \nonumber \\ &= \frac{1}{1 - c} (C_0 + I_0 + G_0 - cT - br) \nonumber \\ &= A - \frac{b}{1 - c} r \nonumber 
+\end{align}$$ 
+Where; <br> - $A$ is **autonomous spending** independent of $r$ $$A = \frac{1}{1 - c} (C_0 + I_0 + G_0 - cT)$$ - $c$ is the **Marginal Propensity to Consume (MPC)** <br> - and $b$ is a **Sensitivity Parameter** <br><br>
+Therefore the IS curve (*green* below) is given by; $$ r = \frac{c - 1}{b} (Y - A) $$ As $r$ increases, investment and consumption decreases, reducing output $Y$. This is represented by $0 < c < 1 \rightarrow (c-1) < 0$. This gives the **negative slope** of the IS curve. <br> 
+The IS curve slope is determined by $b > 0$ - the sensitivity of investment and consumption to interest rate $r$.  **More sensitive economies result in flatter IS curves.**
+
+![IS-MP](<Figures\EC1002_05A23_SbQ2_IS-MP.png>)
+<br>
+
+> When a proportional tax $t$ is introduced, the consumption function becomes: $$ C = C_0 + c(1 - t)Y $$ <br> $$ \text{Multiplier}_{Proportional} = \frac{1}{1 - c(1 - t)} \\ < \text{ Multiplier}_{LumpSum} = \frac{1}{1 - c} \tag{since $t < 1$}$$ The presence of a proportional tax **reduces the multiplier** since the marginal consumpion increase from **taxed income** will be lower than the marginal consumpion increase from **untaxed income** for an equal MPC. <br><br> 
+The gradient of the IS curve becomes steeper because a lower multiplier means that changes in interest rates r lead to smaller changes in output Y. $$ r = \frac{c - 1}{b} (Y - A) \longrightarrow \frac{c(1-t) - 1}{b} (Y - A) $$
+
+<br>
+
+> $$ r = 1.0 + 0.75\pi \\ Y = 12 - r $$ 
+> $$\begin{align}
+Y &= 12 - (1.0 + 0.75\pi) \nonumber \\ &= 11 - 0.75\pi \nonumber 
+\end{align}$$ 
+> For **$\pi = 10\%$**: $$ Y = 11 - 0.75(10) = 11 - 7.5 = 3.5 $$ Therefore, **output is 3.5 when inflation is 10%.**
+
+<br>
+
+> $$ r = 1.0 + 0.75\pi \\ Y = (12 +2) - r $$ 
+> $$\begin{align}
+Y &= 14 - (1.0 + 0.75\pi) \nonumber \\ &= 13 - 0.75\pi \nonumber 
+\end{align}$$ 
+> For **$\pi = 5\%$**: $$ Y = 13 - 0.75(5) = 13 - 3.75 = 9.25 $$ Therefore, **output is 9.25 when inflation is 5% and business confidence is 2 units higher.**
 
 
+**Further reading: https://github.com/JSammut29/LSE_Econ_EC1002-EC2020/blob/main/Essays/IS-MP.md**
 
-
-
+<br>
 
 ---
-End of paper
+---
+<br>
+
+**End of paper**
 
